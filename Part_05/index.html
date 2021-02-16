@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vue JS - Event</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">		
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>		
+	<style>
+		.one{
+			background-color: red;
+			padding: 5px 5px;
+		}
+		.text{
+			width : 300px;
+			height: 300px;
+			background-color: yellow;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row py-5">
+			<div id="app">				
+				<h3 class="text-center" :class='color'>{{name}}</h3>
+				<button class="btn btn-info mb-3" v-on:click='test'>Click</button>
+				<p class="text" v-on:mousemove='value'>{{log.x}}, {{log.y}}</p>
+			</div>
+		</div>
+	</div>	
+	<script type="text/javascript" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
