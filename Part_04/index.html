@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vue JS - Event</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">	
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>	
+</head>
+<body>
+	<div class="container">
+		<div class="row py-5">
+			<div id="app">
+				<p>I have ${{ dollar }} per month in this year, 2021</p>
+				<button class="btn btn-info"    v-on:click="dollar++">Bonus</button>
+				<button class="btn btn-danger"  v-on:click="dollar--">Demotion</button>
+
+				<button class="btn btn-primary"    @click="dollar++">Bonus</button>
+				<button class="btn btn-warning"    @click="dollar--">Demotion</button>
+				<button class="btn btn-success"    @click="Pay(5)">Payment</button>
+				<button class="btn btn-danger"     @click="Low(10)">Salary Cut</button>
+
+				<button class="btn btn-info"     @dblclick="Pay(10)">Salary Cut</button>
+				<button class="btn btn-success"  @dblclick="Low(10)">Salary Cut</button>
+
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+	<script type="text/javascript" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
