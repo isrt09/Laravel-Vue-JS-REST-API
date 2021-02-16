@@ -1,9 +1,9 @@
 # Laravel & Vue JS with REST-API
-  - Support, Instance, Elements
-  - Methods
-  - Data Binding One Way
-  - Events
-  - Event Objects
+  :point_right: Support, Instance, Elements
+  :point_right: Methods
+  :point_right: Data Binding One Way
+  :point_right: Events
+  :point_right: Event Objects
   - Data Binding Two Way
   - Modifiers
   - v-if, v-elseif, v-for
