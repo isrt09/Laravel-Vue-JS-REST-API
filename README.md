@@ -5,7 +5,7 @@
   :point_right: Events</br>
   :point_right: Event Objects</br>
   :point_right: Data Binding Two Way</br>
-  :point_right: Modifiers</br>
+  :point_right: Event Modifiers</br>
   :point_right: v-if, v-elseif, v-for</br>
   :point_right: Vue CLI</br>
   :point_right: Components, Vue Files</br>
