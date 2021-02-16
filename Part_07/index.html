@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Vue JS - KeyBoard Event</title>
+	<title>Vue JS - Two Way Data Binding</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">		
 	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>			
 </head>
@@ -12,11 +12,9 @@
 	<div class="container">
 		<div class="row py-5">
 			<div id="app">				
-				<h3>Framework : {{name}}</h3>
-				First Name : <input type="text" class="form-control" v-on:keyup='press'>
-				Last  Name : <input type="text" class="form-control" @keyup='press'>
-				Email Address : <input type="email" class="form-control" @keyup='key'>
-				Address : <textarea name="" id="" cols="30" rows="10" class="form-control" @keypress='text'></textarea>
+				<h3>My Name is {{name}}</h3>
+				<input type="text" class="form-control" v-model='name'>
+				<input type="text" class="form-control" v-model='age'>
 			</div>
 		</div>
 	</div>	
